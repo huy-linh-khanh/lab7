@@ -9,6 +9,8 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'carrierwave'
+gem 'carrierwave-aws'
+gem 'dotenv-rails', groups: [:development, :test], require: 'dotenv/rails-now'
 group :development, :test do
   gem 'byebug', platform: :mri
 end
